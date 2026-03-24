@@ -161,7 +161,7 @@ function mousePressed() {
     
     if (d < baseWidth){
       
-      osc.freq(math.random(900, 1500))
+      osc.freq(random(900, 1500))
       osc.freq(10, 0.5)
       osc.amp(0.5, 0.03)
       
