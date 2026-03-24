@@ -161,14 +161,14 @@ function mousePressed() {
     
     if (d < baseWidth){
       
-      osc.freq(900)
+      osc.freq(math.random(10, 900))
       osc.freq(10, 0.5)
       osc.amp(0.5, 0.03)
       
       //Updating the DOM when clicked
       totalClicks++
       clickCounter.html('Clicks: ' + totalClicks)
-      freq = 900;
+      freq = 900
       freqDisplay.html('Frequency: ' + Math.floor(freq) + ' Hz')
     }
   }
